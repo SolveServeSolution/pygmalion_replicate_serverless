@@ -1,0 +1,1 @@
+cog predict -i prompt=Hello

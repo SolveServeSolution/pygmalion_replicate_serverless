@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pygmalion-replicate-serverless"
+version = "0.1.0"
+description = ""
+authors = ["HRNPH <hrnph@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+runpod = "^1.4.0"
+transformers = "^4.35.2"
+torch = "^2.1.1"
+python-dotenv = "^1.0.0"
+cog = "^0.8.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
